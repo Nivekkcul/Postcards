@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="gYF-0I-zHW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5kS-Pe-xGz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Efy-6b-fp8">
@@ -89,6 +90,15 @@
                                     <rect key="frame" x="16" y="93" width="368" height="64"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARm-0t-E11">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="177" width="155" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tub-Wy-5tt">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.64759121355732185" blue="0.15418008540699812" alpha="1" colorSpace="calibratedRGB"/>
@@ -109,6 +119,7 @@
                                 <exclude reference="Che-5b-xb9"/>
                                 <exclude reference="qT3-Af-vf2"/>
                                 <exclude reference="Ife-bH-hJo"/>
+                                <exclude reference="ARm-0t-E11"/>
                                 <exclude reference="Tub-Wy-5tt"/>
                             </mask>
                         </variation>
@@ -118,6 +129,7 @@
                                 <include reference="Che-5b-xb9"/>
                                 <include reference="qT3-Af-vf2"/>
                                 <include reference="Ife-bH-hJo"/>
+                                <include reference="ARm-0t-E11"/>
                                 <include reference="Tub-Wy-5tt"/>
                             </mask>
                         </variation>
@@ -127,6 +139,7 @@
                         <outlet property="enterNameTextField" destination="Che-5b-xb9" id="ex1-O8-UxD"/>
                         <outlet property="mailButton" destination="Tub-Wy-5tt" id="rNc-LX-dg3"/>
                         <outlet property="messageLabel" destination="Ife-bH-hJo" id="K4i-V9-JW8"/>
+                        <outlet property="nameLabel" destination="ARm-0t-E11" id="cRz-jc-ohu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
